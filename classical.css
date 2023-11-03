@@ -1,0 +1,245 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#nav{
+    background-color:#730D0D;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px;
+    padding: 15px;
+    font-size: large;
+    position: sticky;
+    top:0;
+    height: 60px;
+    
+}
+#header {
+    background-image: url('background.jpg'); /* Add your background image here */
+    background-size: cover; /* Ensure the background covers the entire div */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    opacity: 0.8; /* Set the opacity (adjust as needed) */
+}
+
+.logo img {
+    max-height: 60px; /* Adjust the size of the logo as needed */
+    margin-right: 15px; /* Add some spacing between logo and links */
+}
+
+
+#txt2{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+#example1 {
+    background: url(img/clipart.png);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    padding: 0 15px;
+  }
+
+
+a{
+    color:#F2AA6B ;
+    text-decoration:none;
+    padding:5px;
+}
+
+a:hover{
+    
+    color:#ffffff;
+    border-bottom: 2px solid white;
+}
+a:active{
+    background-color: #cd8e8e;
+
+}
+.color{
+    height:500px;
+
+}    
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-size: medium;
+    text-align: middle;
+    background-color: #730D0D;
+    padding : 30px 130px;
+    margin: 10px 40px;
+    
+}
+
+h1 {
+    color: #e0e0e0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+}
+h3{
+    color: #eebf95;
+    font-size: 40px;
+    text-align: center;
+}
+.p1{ 
+    color: #ffffff;
+    font-size: xx-large;
+}
+img.dance-image {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.dance-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #cdcdcd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #050505;
+    padding: 20px;
+    font-size: 17px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #fff6f6;
+}
+
+h2 {
+    color: #333333;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+#video-gallery {
+    color: #ffffff;
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.video-container iframe {
+    margin: 10px;
+    border-radius: 20px;
+    border: #050505;
+    box-shadow: #050505;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+tr:hover{
+    background-color: lightgray;
+
+}
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #26120B;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #bf85634d;
+}
+table{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.txt{
+    padding:20px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #eebf95;
+    color: #ffffff;
+    padding: 0px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-info, .footer-links, .social-icons {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-icons img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+
